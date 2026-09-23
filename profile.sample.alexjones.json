@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "identity": {
+    "first_name": "Alex",
+    "middle_name": "R",
+    "last_name": "Jones",
+    "preferred_name": "Alex",
+    "date_of_birth": "1996-04-12",
+    "gender": "Male",
+    "pronouns": "he/him",
+    "nationality": "American",
+    "marital_status": "Single",
+    "veteran_status": "Not a veteran",
+    "disability_status": "Prefer not to say",
+    "race_ethnicity": "Prefer not to say"
+  },
+  "contact": {
+    "email": "alex.jones.demo@example.com",
+    "phone_country_code": "+1",
+    "phone_national": "5551234567",
+    "address_line1": "742 Evergreen Terrace",
+    "address_line2": "Apt 4B",
+    "city": "Springfield",
+    "state": "Illinois",
+    "postal_code": "62704",
+    "country": "United States",
+    "country_iso2": "US"
+  },
+  "links": {
+    "linkedin": "https://linkedin.com/in/alexjonesdemo",
+    "github": "https://github.com/alexjonesdemo",
+    "portfolio": "https://alexjones.dev",
+    "x": "https://x.com/alexjonesdemo"
+  },
+  "work": {
+    "current_title": "Senior Product Designer",
+    "current_company": "Initech Labs",
+    "years_experience": 6,
+    "notice_period_days": 30,
+    "work_authorization": { "US": true, "CA": true, "GB": false, "AU": false }
+  },
+  "education": [
+    {
+      "degree": "BA",
+      "field": "Graphic Design",
+      "institution": "State University",
+      "end_year": 2018
+    },
+    {
+      "degree": "MSc",
+      "field": "Human-Computer Interaction",
+      "institution": "Springfield Institute of Technology",
+      "end_year": 2020
+    }
+  ],
+  "skills": [
+    "Figma",
+    "User Research",
+    "Prototyping",
+    "Design Systems",
+    "HTML/CSS",
+    "Interaction Design",
+    "Usability Testing",
+    "Wireframing",
+    "Accessibility (WCAG)",
+    "Design Ops"
+  ],
+  "languages": ["English", "Spanish", "French"],
+  "answers": [
+    {
+      "id": "why_company",
+      "topic": "Why do you want to work here (generic)",
+      "text": "I'm drawn to teams that ship fast and care about craft, and I'd love to bring my design and research background to help solve real user problems here."
+    },
+    {
+      "id": "about_me",
+      "topic": "Short professional summary",
+      "text": "Senior product designer with 6 years of experience across B2B SaaS and consumer apps, focused on turning research into simple, usable interfaces."
+    },
+    {
+      "id": "strengths",
+      "topic": "Greatest strengths or skills",
+      "text": "Strong at rapid prototyping, user interviews, and translating ambiguous problems into clear design systems."
+    },
+    {
+      "id": "why_leaving",
+      "topic": "Why are you looking to leave your current role",
+      "text": "I've grown as much as I can in my current scope and I'm looking for a team with a bigger, more ambiguous design problem to own."
+    },
+    {
+      "id": "biggest_achievement",
+      "topic": "Describe your biggest professional achievement",
+      "text": "Led the redesign of our onboarding flow, cutting drop-off by 35% and becoming the design system's first fully accessible flagship feature."
+    },
+    {
+      "id": "management_style",
+      "topic": "How do you like to work with product managers and engineers",
+      "text": "I like being looped in early, before requirements are locked, so design can shape the problem rather than just the pixels."
+    },
+    {
+      "id": "availability",
+      "topic": "When are you available to start",
+      "text": "I can start within 30 days of an offer, matching my current notice period."
+    },
+    {
+      "id": "cover_letter",
+      "topic": "Cover letter or additional information",
+      "text": "I've spent the last several years designing for complex B2B workflows and I'm excited about the chance to bring that experience to a team building tools people rely on daily."
+    }
+  ],
+  "preferences": [
+    { "id": "marketing_emails", "statement": "Wants marketing or newsletter emails", "value": false },
+    { "id": "relocate", "statement": "Willing to relocate", "value": true },
+    { "id": "remote_only", "statement": "Wants remote-only roles", "value": false },
+    { "id": "hybrid_ok", "statement": "Open to hybrid work arrangements", "value": true },
+    { "id": "travel_ok", "statement": "Willing to travel for work (up to 25%)", "value": true },
+    { "id": "contract_ok", "statement": "Open to contract or contract-to-hire roles", "value": false },
+    { "id": "referral_ok", "statement": "OK to be referred to other open roles at this company", "value": true }
+  ],
+  "custom": [
+    { "key": "tshirt_size", "description": "T-shirt size", "value": "M" },
+    { "key": "salary_expectation_usd", "description": "Expected annual salary in USD", "value": "125000" },
+    { "key": "referral_source", "description": "How they heard about the company", "value": "LinkedIn" },
+    { "key": "linkedin_recommendation_count", "description": "Number of LinkedIn recommendations", "value": "8" },
+    { "key": "driving_license", "description": "Has a valid driver's license", "value": "Yes" },
+    { "key": "security_clearance", "description": "Holds an active government security clearance", "value": "No" },
+    { "key": "portfolio_password", "description": "Password to view the password-protected portfolio site, if asked", "value": "designwork2024" },
+    { "key": "desired_start_date", "description": "Preferred start date if hired", "value": "2026-11-01" },
+    { "key": "hear_about_role", "description": "How they found this specific job posting", "value": "Company careers page" }
+  ]
+}

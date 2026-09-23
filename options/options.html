@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>FormPilot Settings</title>
+  <link rel="stylesheet" href="options.css" />
+</head>
+<body>
+  <div class="wrap">
+    <h1>FormPilot Settings</h1>
+    <p class="lede">
+      Your profile and API key stay in this browser. On each fill, FormPilot sends field labels and
+      profile <em>key descriptions</em> to TypeSafe (Jev) so it can decide which value goes where — it
+      never invents text, and your actual values are only sent for the few fields that need exact
+      option matching.
+    </p>
+
+    <section class="card">
+      <h2>1. Profile</h2>
+      <p>Upload a <code>profile.json</code>, or paste/edit it below, then validate and save.</p>
+      <div class="row">
+        <input type="file" id="profileFile" accept="application/json" />
+        <button id="loadTemplateBtn" class="secondary">Load template</button>
+        <button id="downloadTemplateBtn" class="secondary">Download template</button>
+      </div>
+      <textarea id="profileText" rows="16" spellcheck="false" placeholder="Paste profile.json here"></textarea>
+      <div class="row">
+        <button id="validateSaveBtn" class="primary">Validate &amp; Save</button>
+        <button id="exportProfileBtn" class="secondary">Export current profile</button>
+      </div>
+      <ul id="profileErrors" class="errors"></ul>
+      <p id="profileStatus" class="status-line"></p>
+    </section>
+
+    <section class="card">
+      <h2>2. TypeSafe API key</h2>
+      <p>Paste your Jev API key. Choose whether FormPilot should remember it (encrypted) between browser restarts.</p>
+      <input type="password" id="apiKeyInput" placeholder="sk-..." autocomplete="off" />
+      <label class="checkbox-row">
+        <input type="checkbox" id="rememberCheckbox" />
+        Remember on this device (encrypted with a passphrase)
+      </label>
+      <input type="password" id="passphraseInput" placeholder="Passphrase to encrypt the key" class="hidden" />
+      <div class="row">
+        <button id="saveKeyBtn" class="primary">Save key</button>
+        <button id="testKeyBtn" class="secondary">Test key</button>
+        <button id="clearKeyBtn" class="secondary">Clear key</button>
+      </div>
+      <p id="keyStatus" class="status-line"></p>
+    </section>
+
+    <section class="card danger">
+      <h2>Danger zone</h2>
+      <button id="deleteAllBtn" class="danger-btn">Delete everything (profile + key)</button>
+    </section>
+  </div>
+
+  <script type="module" src="options.js"></script>
+</body>
+</html>

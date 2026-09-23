@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "identity": {
+    "first_name": "Riya",
+    "middle_name": "",
+    "last_name": "Kapoor",
+    "preferred_name": "Riya",
+    "date_of_birth": "1999-07-22",
+    "gender": "Female",
+    "pronouns": "she/her",
+    "nationality": "Indian",
+    "marital_status": "Single",
+    "veteran_status": "Not a veteran",
+    "disability_status": "No",
+    "race_ethnicity": "Asian"
+  },
+  "contact": {
+    "email": "riya.kapoor.demo@example.com",
+    "phone_country_code": "+91",
+    "phone_national": "9123456780",
+    "address_line1": "45 MG Road",
+    "address_line2": "Flat 12B",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "postal_code": "560001",
+    "country": "India",
+    "country_iso2": "IN"
+  },
+  "links": {
+    "linkedin": "https://linkedin.com/in/riyakapoordemo",
+    "github": "https://github.com/riyakapoordemo",
+    "portfolio": "https://riyakapoor.dev",
+    "x": ""
+  },
+  "work": {
+    "current_title": "Backend Engineer",
+    "current_company": "Nimbus Systems",
+    "years_experience": 3,
+    "notice_period_days": 60,
+    "work_authorization": { "IN": true, "US": false, "GB": false }
+  },
+  "education": [
+    {
+      "degree": "BE",
+      "field": "Computer Science",
+      "institution": "R.V. College of Engineering",
+      "end_year": 2021
+    },
+    {
+      "degree": "MTech",
+      "field": "Data Engineering",
+      "institution": "IIIT Bangalore",
+      "end_year": 2023
+    }
+  ],
+  "skills": ["Python", "Django", "PostgreSQL", "Docker", "AWS", "Kafka"],
+  "languages": ["English", "Hindi", "Kannada"],
+  "answers": [
+    {
+      "id": "why_company",
+      "topic": "Why do you want to work here (generic)",
+      "text": "I want to work somewhere that takes backend reliability seriously and gives engineers real ownership over the systems they build."
+    },
+    {
+      "id": "about_me",
+      "topic": "Short professional summary",
+      "text": "Backend engineer with 3 years of experience building high-throughput data pipelines and APIs in Python."
+    },
+    {
+      "id": "strengths",
+      "topic": "Greatest strengths or skills",
+      "text": "Comfortable owning a service end to end — schema design, API contracts, monitoring, and on-call."
+    }
+  ],
+  "preferences": [
+    { "id": "marketing_emails", "statement": "Wants marketing or newsletter emails", "value": false },
+    { "id": "relocate", "statement": "Willing to relocate", "value": false },
+    { "id": "remote_only", "statement": "Wants remote-only roles", "value": true }
+  ],
+  "custom": [
+    { "key": "tshirt_size", "description": "T-shirt size", "value": "S" },
+    { "key": "salary_expectation_inr", "description": "Expected annual salary in INR", "value": "1800000" },
+    { "key": "referral_source", "description": "How they heard about the company", "value": "Referral from a friend" }
+  ]
+}

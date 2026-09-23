@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "identity": {
+    "first_name": "Taj",
+    "middle_name": "",
+    "last_name": "Malnas",
+    "preferred_name": "Taj",
+    "date_of_birth": "1998-01-15",
+    "gender": "Male",
+    "pronouns": "he/him",
+    "nationality": "Indian",
+    "veteran_status": "Not a veteran",
+    "disability_status": "Prefer not to say"
+  },
+  "contact": {
+    "email": "you@example.com",
+    "phone_country_code": "+91",
+    "phone_national": "9876543210",
+    "address_line1": "123 Example Street",
+    "address_line2": "",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "postal_code": "400001",
+    "country": "India",
+    "country_iso2": "IN"
+  },
+  "links": {
+    "linkedin": "https://linkedin.com/in/example",
+    "github": "https://github.com/example",
+    "portfolio": "",
+    "x": ""
+  },
+  "work": {
+    "current_title": "Software Engineer",
+    "current_company": "Example Corp",
+    "years_experience": 2,
+    "notice_period_days": 30,
+    "work_authorization": { "IN": true, "US": false }
+  },
+  "education": [
+    { "degree": "BTech", "field": "Information Technology", "institution": "Example University", "end_year": 2023 }
+  ],
+  "skills": ["JavaScript", "TypeScript", "React", "Node.js", "SQL"],
+  "languages": ["English", "Hindi"],
+  "answers": [
+    { "id": "why_company", "topic": "Why do you want to work here (generic)", "text": "I'm excited about the mission and want to contribute my skills to a team that values impact." },
+    { "id": "about_me", "topic": "Short professional summary", "text": "A software engineer with experience building web applications end to end." }
+  ],
+  "preferences": [
+    { "id": "marketing_emails", "statement": "Wants marketing or newsletter emails", "value": false },
+    { "id": "relocate", "statement": "Willing to relocate", "value": true }
+  ],
+  "custom": [
+    { "key": "tshirt_size", "description": "T-shirt size", "value": "M" }
+  ]
+}

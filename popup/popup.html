@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>FormPilot</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="header">
+    <img src="../icons/icon48.png" width="24" height="24" alt="" />
+    <span class="title">FormPilot</span>
+  </div>
+
+  <div id="status" class="status"></div>
+
+  <div id="lockedPanel" class="panel hidden">
+    <p>Your remembered API key is locked.</p>
+    <input id="passphrase" type="password" placeholder="Passphrase" />
+    <button id="unlockBtn" class="primary">Unlock</button>
+    <p id="unlockError" class="error"></p>
+  </div>
+
+  <div id="missingPanel" class="panel hidden">
+    <p>Set up your profile and API key first.</p>
+    <button id="openSettingsBtn" class="primary">Open Settings</button>
+  </div>
+
+  <div id="readyPanel" class="panel hidden">
+    <button id="fillBtn" class="primary big">Fill this form</button>
+    <div class="hint">or press <kbd>Alt+Shift+F</kbd></div>
+    <div id="result" class="result"></div>
+    <button id="undoBtn" class="secondary hidden">Undo last fill</button>
+  </div>
+
+  <div class="footer">
+    <a href="#" id="settingsLink">Settings</a>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

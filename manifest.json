@@ -1,0 +1,49 @@
+{
+  "manifest_version": 3,
+  "name": "FormPilot",
+  "version": "0.1.0",
+  "description": "Fills web forms from your saved profile using Jev (TypeSafe AI) to decide which value goes where. Your profile and API key never leave the browser except in calls to TypeSafe.",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "permissions": ["storage"],
+  "host_permissions": ["https://api.typesafe.ai/*"],
+  "background": {
+    "service_worker": "background/index.js",
+    "type": "module"
+  },
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "options_ui": {
+    "page": "options/options.html",
+    "open_in_tab": true
+  },
+  "commands": {
+    "fill-form": {
+      "suggested_key": { "default": "Alt+Shift+F" },
+      "description": "Fill forms on this page"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "all_frames": true,
+      "match_about_blank": true,
+      "run_at": "document_idle",
+      "js": [
+        "content/scan.js",
+        "content/fill.js",
+        "content/overlay.js",
+        "content/index.js"
+      ]
+    }
+  ]
+}
